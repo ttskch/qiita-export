@@ -1,0 +1,21 @@
+{
+  "name": "qiita-export",
+  "version": "0.0.0",
+  "description": "export all data from qiita.com",
+  "bin": {
+    "qiita-export": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ttskch/qiita-export.git"
+  },
+  "author": "ttskch@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ttskch/qiita-export/issues"
+  },
+  "homepage": "https://github.com/ttskch/qiita-export#readme"
+}
