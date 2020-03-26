@@ -1,6 +1,6 @@
 {
   "name": "qiita-export",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "export all posts and comments from qiita.com",
   "bin": {
     "qiita-export": "index.js"
