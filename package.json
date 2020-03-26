@@ -1,7 +1,7 @@
 {
   "name": "qiita-export",
-  "version": "0.0.0",
-  "description": "export all data from qiita.com",
+  "version": "1.0.0",
+  "description": "export all posts and comments from qiita.com",
   "bin": {
     "qiita-export": "index.js"
   },
@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/ttskch/qiita-export/issues"
   },
-  "homepage": "https://github.com/ttskch/qiita-export#readme"
+  "homepage": "https://github.com/ttskch/qiita-export#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "commander": "^5.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "qiita-js": "^0.4.3"
+  }
 }
